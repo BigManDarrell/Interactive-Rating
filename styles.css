@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+p {
+    color: #7c8c94;
+}
+
+.container {
+    background-image: linear-gradient(#052132, #03141f);
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 10%;
+    margin-top: 10%;
+}
+
+.num {
+    display: inline-block;
+    background-color: #07293e;
+    border-radius: 100%;
+    padding: 20px;
+    color: #7c8c94;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 16px;
+}
+
+.num:hover {
+    color: white;
+    background-color: rgb(255, 123, 0);
+    cursor: pointer;
+}
+
+.btn {
+    background-color: rgb(255, 123, 0);
+    width: 100%;
+    color: rgb(234, 234, 234);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: smaller;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(255, 123, 0);
+}
+
+.star-icon {
+    background-color: #07293e;
+    border-radius: 100%;
+    padding: 16px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pressed {
+    background-color: #7c8c94;
+    color: white;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.thanks-icon {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.message {
+    background-color: #07293e;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: auto;
+}
+
+.message-p {
+    color: rgb(255, 123, 0);
+    padding: 16px;
+}
+
+.center {
+    text-align: center;
+}
